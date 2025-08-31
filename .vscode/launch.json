@@ -37,13 +37,6 @@
             "name": "Open portfolio.html",
             "file": "c:\\Users\\dharm\\OneDrive\\Desktop\\Digital Protfolio\\PROJECT\\portfolio.html",
             "webRoot": "${workspaceFolder}"
-        },{
-            "type": "chrome",
-            "request": "launch",
-            "name": "Open prt.html",
-            "file": "c:\\Users\\dharm\\OneDrive\\Desktop\\Digital Protfolio\\PROJECT\\prt.html",
-            "webRoot": "${workspaceFolder}"
         }
-
     ]
 }
