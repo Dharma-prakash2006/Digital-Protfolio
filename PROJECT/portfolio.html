@@ -10,7 +10,7 @@
             --primary: #1a1a2e;
             --secondary: #16213e;
             --accent: #0f3460;
-            --highlight: #e94545;
+            --highlight: #e94560;
             --text: #fff;
             --light-bg: #f0f0f0;
             --dark-text: #333;
@@ -40,7 +40,7 @@
             padding: 0 15px;
         }
 
- 
+        /* Navigation Styles */
         header {
             background-color: var(--secondary);
             position: fixed;
@@ -94,6 +94,7 @@
             font-size: 1.5rem;
         }
 
+        /* Hero Section */
         .hero {
             padding: 8rem 0 5rem;
             background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
@@ -165,7 +166,7 @@
             color: var(--primary);
         }
 
-
+        /* Sections Common Styling */
         section {
             padding: 5rem 0;
         }
@@ -191,7 +192,7 @@
             margin: 0.5rem auto 0;
         }
 
-
+        /* About Section */
         .about-content {
             display: flex;
             align-items: center;
@@ -230,7 +231,7 @@
             font-size: 0.9rem;
         }
 
- 
+        /* Education Section */
         .education {
             background-color: var(--secondary);
             color: var(--text);
@@ -300,7 +301,7 @@
             left: -10px;
         }
 
-
+        /* Projects Section */
         .projects {
             background-color: var(--light-bg);
         }
@@ -360,7 +361,7 @@
             font-size: 0.8rem;
         }
 
-
+        /* Skills Section */
         .skills-section {
             background-color: var(--light-bg);
         }
@@ -408,7 +409,7 @@
             border-radius: 5px;
         }
 
-
+        /* Interests Section */
         .interests {
             background-color: var(--primary);
             color: var(--text);
@@ -442,7 +443,7 @@
             margin-bottom: 1rem;
         }
 
-
+        /* Contact Section */
         .contact-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -519,6 +520,7 @@
             background-color: var(--secondary);
         }
 
+        /* Footer */
         footer {
             background-color: var(--primary);
             color: var(--text);
@@ -548,7 +550,7 @@
             font-size: 0.9rem;
         }
 
-
+        /* Responsive Design */
         @media (max-width: 992px) {
             .about-content,
             .contact-content {
@@ -637,7 +639,7 @@
     </style>
 </head>
 <body>
- 
+    <!-- Navigation -->
     <header>
         <div class="container">
             <nav class="navbar">
@@ -645,7 +647,7 @@
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
+                    <li><a href-#education">Education</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#interests">Interests</a></li>
@@ -658,9 +660,11 @@
         </div>
     </header>
 
+    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
+                <img src="C:\Users\dharm\OneDrive\Desktop\Digital Protfolio\profile image.jpg" alt="Dharmaprakash K" class="profile-img">
                 <h1>I'm <span style="color: var(--highlight)">Dharmaprakash K</span></h1>
                 <p>A passionate BSc Artificial Intelligence & Machine Learning student</p>
                 <div class="hero-buttons">
@@ -671,6 +675,7 @@
         </div>
     </section>
 
+    <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
             <div class="section-title">
@@ -695,7 +700,7 @@
         </div>
     </section>
 
-
+    <!-- Education Section -->
     <section id="education" class="education">
         <div class="container">
             <div class="section-title">
@@ -720,14 +725,14 @@
         </div>
     </section>
 
-
+    <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
             <div class="section-title">
                 <h2>My Projects</h2>
             </div>
             <div class="project-grid">
- 
+                <!-- Project 1 -->
                 <div class="project-card">
                     <div class="project-image">
                         <i class="fas fa-temperature-high"></i>
@@ -744,7 +749,7 @@
                     </div>
                 </div>
                 
-
+                <!-- Project 2 -->
                 <div class="project-card">
                     <div class="project-image">
                         <i class="fas fa-tasks"></i>
@@ -760,7 +765,7 @@
                     </div>
                 </div>
                 
-
+                <!-- Project 3 -->
                 <div class="project-card">
                     <div class="project-image">
                         <i class="fas fa-calculator"></i>
@@ -779,6 +784,7 @@
         </div>
     </section>
 
+    <!-- Skills Section -->
     <section id="skills" class="skills-section">
         <div class="container">
             <div class="section-title">
@@ -881,7 +887,7 @@
         </div>
     </section>
 
-
+    <!-- Interests Section -->
     <section id="interests" class="interests">
         <div class="container">
             <div class="section-title">
@@ -920,7 +926,7 @@
         </div>
     </section>
 
- 
+    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-title">
@@ -955,6 +961,15 @@
                             <p>India</p>
                         </div>
                     </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>Dharmaprakash K</p>
+                        </div>
+                    </div>
                 </div>
                 <form class="contact-form" id="contactForm">
                     <div class="form-group">
@@ -975,16 +990,21 @@
         </div>
     </section>
 
-
+    <!-- Footer -->
     <footer>
         <div class="container">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/dharmaprakash-k-920b26333?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:dharmaprakashk2006@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                <a href="tel:+918056314272" class="social-link"><i class="fas fa-phone"></i></a>
+            </div>
             <p class="copyright">&copy; 2025 Dharmaprakash K. All Rights Reserved.</p>
         </div>
     </footer>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            
+            // Mobile Navigation Toggle
             const hamburger = document.getElementById('hamburger');
             const navLinks = document.querySelector('.nav-links');
             
@@ -992,20 +1012,20 @@
                 navLinks.classList.toggle('active');
             });
             
-       
+            // Close mobile menu when clicking on a link
             document.querySelectorAll('.nav-links a').forEach(link => {
                 link.addEventListener('click', function() {
                     navLinks.classList.remove('active');
                 });
             });
             
-          
+            // Form Validation
             const contactForm = document.getElementById('contactForm');
             
             contactForm.addEventListener('submit', function(e) {
                 e.preventDefault();
                 
-            
+                // Basic validation
                 const nameInput = document.getElementById('name');
                 const emailInput = document.getElementById('email');
                 const messageInput = document.getElementById('message');
@@ -1052,7 +1072,7 @@
                 return re.test(email);
             }
             
-        
+            // Smooth scrolling for navigation links
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function(e) {
                     e.preventDefault();
